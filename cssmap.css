@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 20px solid green;
+}
+.map {
+  position: relative;
+  text-align: center;
+}
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.graveyard {
+  cursor: pointer;
+  opacity: .5;
+}
+.graveyard:hover {
+  transition: opacity .3s ease;
+  opacity: .5;
+}
